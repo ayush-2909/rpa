@@ -1,0 +1,14 @@
+Practical 9
+Automate A Process For Sending Mail
+Process steps :
+1.Drag and drop sequence activity in the designer panel
+2.Add Use Browser Chrome activity inside sequence and indicate the URL
+3.Add click activity inside the Do and indicate Gmail on the browser
+4. Add Click activity and Indicate the gmail address input field
+5.After that add Type into activity and type the password
+6.Add click Activity again and Indicate Next on browser
+7.Add click activity and indicate on compose in the gmail window
+8.Add type into and in Type this add the sender mail address
+9. Add click Activity and Indicate the sender mail address
+10.Add type into activity and in Type this (write any message)
+11.Then again add click activity and indicate send
