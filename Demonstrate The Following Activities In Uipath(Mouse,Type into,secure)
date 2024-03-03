@@ -1,0 +1,18 @@
+PRACTICAL 7
+Demonstrate The Following Activities In Uipath:
+1. Mouse (Click, Double Click, And Hover)
+2. Type Into
+3. Type Secure Text
+Process steps
+1. Add sequence activity in the designer
+2.In Sequence , add the Use Application activity Indicate explorer in it
+3.Inside Do add Click activity and indicate Google Chrome
+4.After that add the Use Browser Chrome ,indicate Browser Url
+5.Inside Do add Click activity , Indicate Gmail on the browser
+6.Add click activity and Indicate the Input field on the gmail
+7.Add Type into activity ,after clicking the activity add email address
+8.Add click activity and indicate on the next button
+9.Then Add delay activity and provide delay of 00hh 00mm 05.000s
+10.Add another Type into activity .Add text into into Type this (password)
+11.Then add click activity and Indicate next on the browser
+12. Run the process using Run Button
