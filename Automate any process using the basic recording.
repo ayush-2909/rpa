@@ -1,0 +1,37 @@
+Practical 4A
+Automate any process using the basic recording. (Change the font, font style, and font
+size of written data inside the notepad).
+Process steps :
+1. Add sequence activity inside the designer panel. Select basic recording from the ribbon and
+start
+recording.
+2. Open the notepad application by clicking on the Notepad Application icon on a desktop
+screen and click
+on the confirmation button.
+3. Select Type Into activity in the recording panel, indicate the notepad area where we type
+text, and
+confirm it. Add the text “hello basic recording” and press the enter button.
+4. Select Click activity from the recording panel, click on the Edit option in the notepad
+application and
+click on the confirmation.
+
+5. Select click activity from the recording panel, click on select all option inside the edit and
+confirm it.
+Which selects all text on the screen.
+6. Add Click activity from the recording panel, click on the Format option in note pad
+application and click
+on the confirmation button.
+7. Select the Click activity from the recording panel, click on the Font option inside the
+Format and
+confirm it. This will open a window that contains multiple font styles and sizes.
+8. Add Click activity from the recording panel, select the font type from the list and confirm
+it.
+9. Select Click activity from the recording panel, select the font style from the list and
+confirm it.
+10. Select Click activity from the recording panel, select the font size and confirm it.
+11. Select Click activity from the recording panel, and click on ok which changes the font
+style and size as
+well.
+12. Run the process using Run Button, this will automate the process of changing the font
+style and size of
+the entered text in the notepad application.
