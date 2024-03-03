@@ -1,0 +1,21 @@
+PRACTICAL 3B
+Create An Automation Uipath Project Using Looping Statements.
+Process Steps :
+1. Add Sequence activity inside the designer panel.
+2. Inside the Sequence add Do While activity.
+3. Add Input Dialog activity in the Body of Do While, give the appropriate Dialog Title as
+“The number is
+odd or even” and Input label as “Enter the number:” both must be in double quotes. Add
+Input Type as
+Text Box and value entered.
+5. Add If activity after the Input Dialog set Condition as “ n Mod 2 = 0”. Inside Then block
+add Sequence
+along with Message Box activity with Text as “ n.ToString+’ is even..’”.
+6. Inside the Else block add Sequence along with Message Box. Add Text in Message Box as
+“ n.ToString+’
+is odd’”.
+
+7. Add Condition inside Do While activity as “n Mod 2 <> 0”. The loop will continue the
+execution until
+we get an even number.
+8. Run the process using Run Button.
