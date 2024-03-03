@@ -1,0 +1,18 @@
+PRACTICAL 6A
+Create An Application Automating The Read, Write And Append Operation On An
+Excel File.
+Process steps :
+1. Add Sequence activity inside the designer panel.
+2. Inside the variable panel create variables results and Data_t with Variable Type String and
+Data
+Table respectively, and both have scope as a sequence.
+3. Inside the Sequence add Excel Process scope activity, which helps to perform excel
+operations.
+4. Add the Write Cell workbook activity, and add the appropriate workbook path.
+Sheet name: “Pract6b”,
+Cell write data: “H10”,
+Text: “Hello”.
+5. Add Read Cell Workbook activity, give the appropriate path,
+Sheet name: “Pract6b”,
+Cell number: “H10”.
+Stored data into result variables.
