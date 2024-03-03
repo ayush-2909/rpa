@@ -1,0 +1,24 @@
+PRACTICAL 1C
+Create An Uipath Robot That Can Empty A Folder In Gmail Solely Based On The
+Recording
+Process Steps :
+1. Add Sequence activity inside the designer panel.
+2. Start recording using the Web/Application recorder on Ribbon.
+3. Click on the Gmail login page on the browser. Click the Input field, select the Type Into
+option and
+click on the confirmation Button. Enter your email address in Type Into.
+4. Click on the Next button and click on the confirmation button. It will go to the next
+process.
+5. Click the Input field of the Password, select Type Into and click on the confirmation
+button. Enter your
+password in Type Into and select the invisible option, it will show an asterisk instead of
+password ******* characters.
+6. Click on the Next button and click on the confirmation button now you will log in to a
+Gmail account.
+7. Here we can empty the trash bin. Click on the More option and confirmation button.
+8. Select the Bin option from click it and confirm it.
+9. Select mail to delete from a bin and click on confirm button.
+10. Click on the Delete Forever button and click the confirmation. You will delete one or
+more mail from
+the bin permanently.
+11. Click the Run Button to run the process.
