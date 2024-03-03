@@ -1,0 +1,20 @@
+Practical 3A
+Create An Automation Uipath Project Using Decision Statements. (Take The Number
+From The User, The Check Is It Even Or Odd).
+Process steps :
+1. Add Sequence activity inside the designer panel.
+2. Inside the sequence add activity Input Dialog. Give the Dialog Title “The number is even
+or odd”, and
+Input Label “Enter the number” both must be in double quotes. Select Input Type as “Text
+Box”, and the
+value entered.
+4. Add If activity (decision making) after the Input Dialog. Set Condition as “number Mod 2
+=0” and inside
+the Then block add Sequence along with Message Box activity, add Text along with the
+variable name
+as “number.ToString+” is Even””.
+5. Inside the Else block add Sequence along with Message Box activity, and add the text
+along with the
+variable name as” number.ToString+ “ is Odd”.
+
+6. Run the process using Run Button
