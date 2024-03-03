@@ -1,0 +1,60 @@
+PRACTICAL 2B
+Create An Automation Uipath Project Using Different Types Of Variables. (Number,
+Datetime, Boolean, Generic, Array, Data Table)
+1. BOOLEAN
+
+
+2.GENERIC
+
+3.ARRAY
+Array variable
+Process step:
+1. Search for Sequence Activity, drag and drop Sequence activity added in the designer panel.
+2. Inside the variable panel create a variable currentItem with Variable Type String Type,
+Scope as the sequence.
+3. Add For each activity inside the sequence. Enter the variable that you want to print in the
+body to ForEach
+part assign variable currentItem inside the in part.
+4. Add a Message Box activity in the body of Each activity. Enter text as “the names are” +
+currentItem
+5. Use Run Button to run the process. it will print all elements inside the array.
+4.NUMBERS
+Process Steps:
+1. Create age and name variables inside the variable panel. Age variable with Type Int32,
+Scope as
+sequence, and the name variable with Type String, scope as Sequence.
+2. Add Sequence activity inside the designer panel.
+3. Add two Input Dialog activities inside the Sequence for the person name and age
+respectively. Give
+Input Title as “person details”. Input Lable as “ Enter your name: “ and “Enter your age: “
+always in
+double-quotes. Select Input Type as “TextBox” and value entered enter the variables name
+created in
+the variable panel as name and age respectively.
+4. Add Message Box activity after that and add Text as “ Your name is “+name+ “ and age is
+”+age.ToString+” .“.
+5. Run the process using Run Button.
+5.DATATABLE
+1. Create variables inside the variable panel with the name TableData and result. With
+Variable type for
+TableData “DataTable” and “String” respectively. Variable scope is Sequence for both the
+variables.
+2. Add Sequence activity in the designer panel.
+3. Add Data Table activity inside Sequence add Colum in it as names and age add some data
+in it.
+4. Add Output Data Table activity after Data Table activity adds Tabledata variable in the
+input of output data table and result variable in output part of the output data table.
+5. Add Message Box activity after the Output Data Table. In Text add a result variable to
+print data stored
+in it.
+6. Run the process using the Run button.
+6.DATETIME
+1. Add Sequence activity in designer panel.
+2. Create variable name variable1 with Variable type System.DateTime, and Scope Sequence.
+3. Add assign activity, inside sequence activity . Assign Now() to variable variable1 this will
+take system
+current date and time and store into variable1.
+4. Add Message Box activity after assign activity, add Text ‘variable1.ToLongDateString+ “,
+“+
+variable1.ToLongTimeString’.
+5. Run the process by clicking run button.
