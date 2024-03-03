@@ -1,0 +1,21 @@
+PRACTICAL 2A
+Automate Uipath Number Calculation (Subtraction,Multiplication, Division Of
+Numbers).
+Process steps :
+1. Add Sequence activity inside the designer panel.
+2. Add two Input Dialog activities inside the sequence. Give the appropriate Input Tittle,
+Input Label, Input
+Type, and Value entered. Dialog Title as “Calculator” and Input Label as “Enter Num1:”, and
+“Enter
+Num2:” within double-quotes.
+
+4. Add Assign activity, assign addition, subtraction, multiplication, and division operation to
+the result
+variable as “result = Num1+Num2”, ”result=Num1-Num2”, ”result=Num1*Num2”,
+”result=Num1/Num2”.
+5. Add Message Box activity after each Assign activity to print the result of operations. Add
+the result
+variable side the text of the message box activity
+
+
+6. Runthe process using Run Button
