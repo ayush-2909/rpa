@@ -1,0 +1,24 @@
+PRACTICAL 5
+Consider An Array Of Names. We Have To Find Out How Many Of Them Start With
+The Letter "A". Create An Automation Where The Number Of Names Starting With
+"A" Is Counted And The Result Is Displayed.
+Process steps :
+1. Add sequence activity in the designer panel.
+2. Create variables with name names and count respectively in the variable panel. The
+variable type for
+names is Array of T[] along with String data type and count variable with Int32. And Scope
+as Sequence
+for both variables.
+3. Add For Each activity, assign For Each items in the Names variable. Within the body of
+For Each activity
+add If activity, with the condition of ‘items.ToString.StartWith(“R”)’. If there is any name
+that starts with
+the letter ‘R’(case sensitive) then it will go to Then block part of If activity.
+4. In Then block add Assign activity and assign the ‘count’ variable to ‘count+1 ‘. The count
+will be
+incremented when there is more than one name starting with the letter ‘R’.
+5. Outside the For Each activity add Message Box activity. Add Text as ‘count+” names
+available that start
+with ‘R’. it will showcase items starting with the letter ’R’.
+
+6. Run the process using the Run Button.
