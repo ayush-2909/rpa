@@ -1,0 +1,17 @@
+PRACTICAL 1A
+Create A Simple Sequence-Based Project. (Take Input From The User Store It In A
+Variable And Print Output)
+Process Steps :
+1. Search for Sequence activity in the activity panel drag and drop the sequence activity inside
+the designer
+panel.
+2. Click on sequence, and add Input Dialog activity inside the sequence. Give appropriate
+Dialog Title,
+Input Label, Input Type, Value enters values. Dialog Title as “User input” and Input Label as
+“Enter your
+name:” must be in double quotes.
+3. Create a variable in the Variable panel with name as Name, Variable Type as String, and
+Scope as Main
+Sequence.
+4. Add activity Message Box, enter the variable name with text as “My name is”+ Name.
+5. Run the process using the Run Button.
