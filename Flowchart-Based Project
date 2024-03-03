@@ -1,0 +1,22 @@
+Create A Flowchart-Based Project. (Get Two Numbers From The User And Check If It
+Is Equal Or Not. If Not Equal, Enter Two Numbers Again).
+Process steps :
+1. Search for Flowchart activity in the activity panel and add that activity inside the designer
+panel.
+2. Click on the flowchart activity and add two Input Dialog activities inside the flowchart.
+Give appropriate
+Dialog Title, Input Label, Input Type, and Value entered. Dialog Title as “user input” and
+Input label as
+“Enter Num1”,” Enter Num2” must be in double quotes.
+3. Create variables inside the Variable panel with names Num1 and Num2, variable type as
+Int32, and variable scope as a flowchart. Assign variable name in the value entered to each
+Input Dialog.
+
+4. Add Flow Decision activity in flow. inside the properties panel Give the condition “Num1
+= Num2”. If
+the condition is true then flow goes to the true block and if the condition is false then flow
+goes to the
+false block.
+5. Add Message Box activity and enter the text as “Num1 and Num2 are equal” in the true
+block. And
+“Num1 and Num2 are not equal “in the false block.
