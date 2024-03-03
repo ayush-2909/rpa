@@ -1,0 +1,32 @@
+PRACTICAL 8A
+Demonstrate The Following Events In Uipath:
+1. Image-Triggering Event
+2. Element Triggering Event
+3. System Triggering Event
+Process steps :
+1.Image trigger
+1.Add sequence inside the designer panel
+2.Add process trigger scope inside the sequence
+3.Add Image trigger inside the Triggers Indicate the image on the desktop and
+Select the Mouse Button from the drop down list
+4.Add message box Activity inside the sequence of action part of trigger process scope ,add
+text “hello”
+5. Press the run button
+Process output
+2. Element triggering event
+1.Add Trigger scope activity inside the Sequence
+2.Add Event trigger Activity inside the triggers ,Indicate the image (“ram lalla”) on
+desktop and select the left mouse button
+3.Add message box activity inside sequence of action part of triggers process scope ,add text
+“Jai shri Ram”
+4.Run the process using Run button
+Output :
+3.System trigger
+Process steps:
+1.Add Sequence activity inside the designer panel
+2.Add Trigger scope activity inside the sequence
+3.Add Hotkey trigger activity inside the trigger part and select the “enter” key
+4.Action Sequence activity ,add Message Box activity add text as “Clicked enter key using
+system trigger”
+5.Run the process using Run Button
+Process Output
