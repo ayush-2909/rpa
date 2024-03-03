@@ -20,3 +20,5 @@ false block.
 5. Add Message Box activity and enter the text as “Num1 and Num2 are equal” in the true
 block. And
 “Num1 and Num2 are not equal “in the false block.
+6. If the condition is not equal direct the flow to the input dialog activity. Run the process
+using Run Button.
